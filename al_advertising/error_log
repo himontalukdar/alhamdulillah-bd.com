@@ -1,0 +1,8 @@
+[30-Aug-2022 18:10:35 UTC] PHP Fatal error:  Uncaught Error: Call to a member function rowCount() on bool in /home/alhamdul/public_html/al_advertising/index.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/alhamdul/public_html/al_advertising/index.php on line 10
+[30-Aug-2022 18:15:29 UTC] PHP Fatal error:  Uncaught Error: Call to a member function rowCount() on bool in /home/alhamdul/public_html/al_advertising/index.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/alhamdul/public_html/al_advertising/index.php on line 10

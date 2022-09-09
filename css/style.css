@@ -1,0 +1,328 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+body {
+    margin: 0 auto;
+}
+
+
+hr.main-hr{
+
+        position: relative;
+        width: 70px;
+        height: 7px;
+        margin: 15px auto;
+        /* background-image: url( ../images/galery/hr.png ); */
+           
+}
+.hr_image{
+    height: 20px;
+    width: 250px;
+    margin: 15px auto;
+}
+
+hr.head-hr{
+    width: 70px;
+    height: 7px;
+    border-radius: 30px;
+    font-weight: bolder;    
+}
+.btn-danger{
+    background: #ff0052eb;
+}
+
+#error-img img{
+    width: 100%;
+    height: 80vh;
+}
+
+/* Pre_loader section */
+
+.loading {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: #262626;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 99999;
+}
+
+.disppear {
+    animation: vanish 1s forwards;
+}
+
+@keyframes vanish {
+    100% {
+        opacity: 0;
+        visibility: hidden;
+    }
+}
+
+
+/* head_section start */
+
+.phone_icon {
+    float: left;
+    font-size: 30px;
+    margin-right: 15px;
+    color: rgb(211, 38, 38);
+}
+
+.location_icon {
+    float: left;
+    font-size: 30px;
+    margin-right: 15px;
+    color: rgb(211, 38, 38);
+}
+
+.after_icon {
+    float: left;
+    font-size: 15px;
+}
+
+.head_section {
+    margin: 10px auto;
+}
+.logo-img{
+    height: 100px;
+    width: 350px;
+}
+
+
+ul {
+    list-style: none;
+    display: flex;
+    margin-bottom: 0
+}
+
+.social-icon {
+    height: 30px;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 14px;
+    border-radius: 7px;
+    margin-right: 11px;
+    cursor: pointer
+}
+
+.social-icon i {
+    transition: 0.4s all
+}
+
+.social-icon:hover i {
+    transform: scale(1.1)
+}
+
+.d-flex {
+    position: absolute;
+    right: 0px;
+}
+
+
+.navbar-nav .nav-item .nav-link{  
+        margin-right: 15px;
+          position: relative;
+          z-index: 1;        
+}
+
+.navbar-nav .nav-item .nav-link::after{
+        position: absolute;
+        content: "";
+        top: 0;
+        left: 0;
+        height: 3px;
+        width: 0;
+        background-color: rgb(211, 38, 38);
+        z-index: -1;
+        transition: .3s;
+        -webkit-transition: .3s;
+        -moz-transition: .3s;
+        -ms-transition: .3s;
+        -o-transition: .3s;
+}
+
+.navbar-nav .nav-item .nav-link:hover::after 
+{    
+    width: 75%;
+}
+
+
+/* Hero Section start  */
+
+#hero-section{
+    position: relative;
+}
+.hero-title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.hero-title h1{
+    font-size: 35px;
+    font-weight: 700;
+}
+
+#particles-js{
+    height: 50% !important;
+    /* background: rgba(255,0,0,.4); */
+    background-image: linear-gradient(to bottom,rgb(0,0,0), rgb(87, 19, 22));
+
+}
+/* service section start */
+#service-section{
+    padding: 40px 0;
+    /* background-image: linear-gradient(to right,rgb(0,0,0), rgb(87, 19, 22)); */
+    background: #fff;
+    color: #000;
+}
+
+.service-icon{
+    font-size: 60px;
+}
+.client_img_size{
+    height: 80%;
+    width: 80%;
+}
+
+.size_ssg{
+    height: 140px;
+    width: 170px;
+}
+
+ 
+/* why section start */
+#why-section{
+    padding: 40px 0;
+    /* background: #000; */
+    background-image: linear-gradient(to left,rgb(0,0,0), rgb(87, 19, 22));
+    color: #fff;
+}
+
+
+/* client section start */
+#client-section{
+    padding: 40px 0;
+    /* background-image: linear-gradient(to right,rgb(0,0,0), rgb(87, 19, 22)); */
+    background: #fff;
+    color: #000;
+}
+.client-image{
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+/* Team section start */
+#team-section{
+    padding: 40px 0;
+    background-image: linear-gradient(to right,rgb(0,0,0), rgb(87, 19, 22));
+    color: #fff;
+}
+.item{
+    width: 180px;
+}
+.item img{
+    height: 180px;
+    margin-bottom: 15px;
+}
+/* contact section start */
+#contact-section{
+    padding: 40px 0;
+    /* background-image: linear-gradient(to right,rgb(0,0,0), rgb(87, 19, 22)); */
+    background: #fff;
+    color: #000;
+}
+.quick-contact{
+    height: 53px;
+}
+
+/* About Page start  */
+#main-head{
+    height: 320px;
+    background-image: linear-gradient(to right,rgb(0,0,0), rgb(87, 19, 22));
+    /* background-image: linear-gradient(to left,rgba(255,0,0,.2), rgba(255,255,0,.2)); */
+}
+.main-title{
+    padding-top: 50PX;
+    color: white;
+    justify-content: center;
+}
+#about-part{
+    padding: 40px 0;
+}
+#about-part .mv{
+    margin-top: 120px;
+}
+/* service page start  */
+#service-part{
+    margin: 70px 0;
+}
+.service-img{
+    height: 320px;
+    width: 100%;
+}
+
+/* team page start  */
+.team-card{
+    margin: 50px auto;
+    width: 220px;
+}
+.team-img{
+    height: 220px;
+    margin-bottom: 15px;
+    /* border: 1px solid; */
+
+}
+/* career page start  */
+
+.pdf{
+    font-size: 13px;
+    margin: 10px 0 0 5px;
+    color: red;
+}
+/* contact page start  */
+#devider{
+    height: 130px;
+    background-image: linear-gradient(to left,rgb(0,0,0), rgb(87, 19, 22));
+}
+
+
+
+
+/* footer section */
+
+.about {
+    background: #23282cfc;
+    color: #ffffffbf;
+}
+
+.footer-icon {
+    position: absolute;
+    right: 50;
+    left: 50;
+}
+
+.text-left {
+    text-align: justify ;
+    text-align: start;
+}
+
+
+
+
+@media only screen and (max-width: 768px) {
+    #devider{
+        height: 180px;
+    }
+  }
